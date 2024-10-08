@@ -1,0 +1,31 @@
+
+// $background-color:linear-gradient(to right bottom, #6ec6ca, #fec9c9);
+// $background-color:linear-gradient(227deg, #d4d4ee 0%, #0707a7 100%),
+// linear-gradient(155deg, rgba(255,255,255,0.50) 5%, rgba(0,0,0,0.50) 100%);
+$background-color: #17113c;
+$font-color: #ebf9ff;
+
+/**
+  CLOCK STYLE
+*/
+ //time
+  
+  //date
+
+  //week
+
+ //team sytle:color,font,border,other
+$team-font-size:17px;
+// $team-font-family:"Times New Roman";
+// "PingFang SC"
+$team-font-family: "Microsoft YaHei" ! important;
+
+$timeStyle:"letter-spacing: 0.25em;font-size: 20px;";
+
+  
+
+:export{
+    background-color: $background-color;
+    font-color:$background-color;
+    timeStyle:$timeStyle;
+}
